@@ -61,10 +61,10 @@
 <div class="dropdown">
 <span>TVs & Appliances</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>LED</p>
+  	<p>LCD</p>
+  	<p>Plasma panel</p>
+  	<p>OLED</p>
   </div>
 </div>
 </th>
@@ -74,10 +74,10 @@
 <div class="dropdown">
 <span>Men</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>Shirt</p>
+  	<p>Trouser</p>
+  	<p>Kurta</p>
+  	<p>Sherbani</p>
   </div>
 </div>
 </th>
@@ -87,10 +87,10 @@
 <div class="dropdown">
 <span>Women</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>Top</p>
+  	<p>Saree</p>
+  	<p>Kurta</p>
+  	<p>Jeans</p>
   </div>
 </div>
 </th>
@@ -100,10 +100,10 @@
 <div class="dropdown">
 <span>Baby & Kids</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>Jeans</p>
+  	<p>Shirts</p>
+  	<p>T-Shirts</p>
+  	<p>Shorts</p>
   </div>
 </div>
 </th>
@@ -114,10 +114,10 @@
 <div class="dropdown">
 <span>Home & Furniture</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>Showcase</p>
+  	<p>Table</p>
+  	<p>Shoe rack</p>
+  	<p>Sofa</p>
   </div>
 </div>
 </th>
@@ -127,10 +127,10 @@
 <div class="dropdown">
 <span>Sports, Books & More</span>
   <div class="dropdown-content">
-  	<p>Mobiles</p>
-  	<p>Laptops</p>
-  	<p>Fridge</p>
-  	<p>Tablets</p>
+  	<p>Football</p>
+  	<p>Shuttle</p>
+  	<p>Volleyball</p>
+  	<p>Badminton</p>
   </div>
 </div>
 </th>
