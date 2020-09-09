@@ -5,6 +5,26 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function first()
+        {
+            uname = document.getElementById("uname").value.toString().trim();
+            pass = document.getElementById("pass").value.toString().trim();
+            
+            if(uname == "" && pass == "")
+            {
+                alert("Please enter valid username and password");
+            }
+            else if(uname == "")
+            {
+                alert("Please enter valid username");
+            }
+            else if(pass == "")
+            {
+                alert("Please enter valid password");
+            }
+        }
+    </script>
   </head>
 
   <body>
@@ -16,15 +36,15 @@
   		
   		<div class="textbox">
     		<i class="fas fa-user"></i>
-                <input type="text" placeholder="Username" name="uname">
+                <input type="text" placeholder="Username" name="uname" id="uname">
   		</div>
 
   		<div class="textbox">
     		<i class="fas fa-lock"></i>
-                <input type="password" placeholder="Password" name="pass">
+                <input type="password" placeholder="Password" name="pass" id="pass">
   		</div>
 
-  		<input type="submit" class="btn" value="Sign in">
+                    <input type="submit" class="btn" value="Sign in" onclick="first()">
                 </form>
 	</div>
   </body>

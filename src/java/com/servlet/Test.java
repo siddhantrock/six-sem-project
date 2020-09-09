@@ -29,6 +29,13 @@ public class Test extends HttpServlet
         uname = req.getParameter("uname");
         pass = req.getParameter("pass");
         
+        if(uname == "" || pass == "")
+        {
+            RequestDispatcher rd = req.getRequestDispatcher("index.html");
+            rd.forward(req, resp);
+            return;
+        }
+        
         try 
        {
            Class.forName("com.mysql.cj.jdbc.Driver");

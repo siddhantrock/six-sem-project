@@ -4,6 +4,37 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function first()
+        {
+            name = document.getElementById("name").value.toString().trim();
+            uname = document.getElementById("uname").value.toString().trim();
+            pass = document.getElementById("pass").value.toString().trim();
+            msg = "";
+            flag = false;
+            
+            if(name == "")
+            {
+                msg = msg + "please enter valid name";
+                flag = true;
+            }
+            if(uname == "")
+            { 
+                msg = msg + ",username";
+                flag = true;
+            }
+            if(pass == "")
+            {
+                msg = msg + ",password";
+                flag = true;
+            }
+            
+            if(flag == true)
+            {
+                alert(msg);
+            }
+        }
+    </script>
   </head>
   <body>
 <div class="login-box">
@@ -12,20 +43,20 @@
   <form action="Demo" method="post">
   <div class="textbox">
     <i class="fas fa-user"></i>
-    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="name" name="name" id="name">
   </div>
 
   <div class="textbox">
     <i class="fas fa-user"></i>
-    <input type="text" placeholder="Username" name="uname">
+    <input type="text" placeholder="Username" name="uname" id="uname">
   </div>
 
   <div class="textbox">
     <i class="fas fa-lock"></i>
-    <input type="password" placeholder="Password" name="pass">
+    <input type="password" placeholder="Password" name="pass" id="pass">
   </div>
 
-  <input type="submit" class="btn" value="Sign up">
+      <input type="submit" class="btn" value="Sign up" onclick="first()">
   </form>
 </div>
   </body>

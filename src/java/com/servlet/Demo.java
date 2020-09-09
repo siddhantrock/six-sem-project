@@ -27,6 +27,14 @@ public class Demo extends HttpServlet
         uname = request.getParameter("uname");
         pass = request.getParameter("pass");
         
+        if(uname == "" || pass == "" || name == "")
+        {
+            RequestDispatcher rd = request.getRequestDispatcher("index.html");
+            rd.forward(request, response);
+            return;
+        }
+        
+        
         try 
        {
            Class.forName("com.mysql.cj.jdbc.Driver");
@@ -43,15 +51,17 @@ public class Demo extends HttpServlet
             st.executeUpdate("insert into first values('" + name + "','" + uname + "','" + pass + "')");
             PrintWriter pw = response.getWriter();
             
-//            pw.println("<!DOCTYPE html>");
-//            pw.println("<html>");
-//            pw.println("<body>");
-//            pw.println("<style type='text/javascript'>");
-//            pw.println("alert('signup successful')");
-//            pw.println("</style></body>");
-//            pw.println("</html>");
+
+            pw.println("<!DOCTYPE html>");
+            pw.println("<html>");
+            pw.println("<body>");
+            pw.println("<script type='text/javascript'>");
+            pw.println("alert('signup successful')");
+            pw.println("</script></body>");
+            pw.println("</html>");
+            
             RequestDispatcher rd = request.getRequestDispatcher("index.html");
-            rd.forward(request, response);
+            rd.include(request, response);
         }
         catch (SQLException ex) 
         {
