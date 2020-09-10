@@ -159,10 +159,10 @@
 <td colspan="5"><h2>School Bags</h2><hr></td>
 <tr>
 <th><img src="bag1.png" width="75%"></th>
-<th><img src="bag1.png" width="75%"></th>
-<th><img src="bag1.png" width="75%"></th>
-<th><img src="bag1.png" width="75%"></th>
-<th><img src="bag1.png" width="75%"></th>
+<th><img src="bag2.png" width="75%"></th>
+<th><img src="bag3.png" width="75%"></th>
+<th><img src="bag4.png" width="75%"></th>
+<th><img src="bag5.png" width="75%"></th>
 </tr>
 
 <tr>

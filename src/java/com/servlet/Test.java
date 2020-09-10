@@ -58,8 +58,16 @@ public class Test extends HttpServlet
             }
             else
             {
+                pw.println("<!DOCTYPE html>");
+                pw.println("<html>");
+                pw.println("<body>");
+                pw.println("<script type='text/javascript'>");
+                pw.println("alert('Unauthorized user')");
+                pw.println("</script></body>");
+                pw.println("</html>");
+                
                 RequestDispatcher rd = req.getRequestDispatcher("index.html");
-                rd.forward(req, resp);
+                rd.include(req, resp);
             }
         }
         catch (SQLException ex) 
