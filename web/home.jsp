@@ -30,6 +30,15 @@
 </head>
 
 <body bgcolor="#F1F3F6">
+    
+    <%
+        boolean check = Boolean.parseBoolean(session.getAttribute("check")+"");
+        
+        if(check == false)
+        {
+            response.sendRedirect("index.html");
+        }
+    %>
 
 <table border="0" width="100%" bgcolor="#2874F0">
 

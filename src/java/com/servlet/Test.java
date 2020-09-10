@@ -14,6 +14,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class Test extends HttpServlet
 {
@@ -52,6 +53,8 @@ public class Test extends HttpServlet
             ResultSet rs = st.executeQuery("select * from first where uname='" + uname + "' and pass = '" + pass + "'");
             if(rs.next())
             {
+                HttpSession session = req.getSession();
+                session.setAttribute("check", true);
                 RequestDispatcher rd = req.getRequestDispatcher("home.jsp");
                 req.setAttribute("name", rs.getString("name"));
                 rd.forward(req, resp);
