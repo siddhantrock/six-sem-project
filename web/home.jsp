@@ -1,9 +1,18 @@
 <!-- Cyber Warriors YouTube Channel -->
 <html>
 <head>
-<title>Flipkart</title>
+<title>Cybercart</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <style>
+    
+        .checked
+        {
+            color: orange;
+        }
+    
 	.dropdown
 	{
 		position: relative;
@@ -44,7 +53,9 @@
 
 <tr>
 <td align="center"><img src="logo.png"></td>
-<td><input type="text" placeholder="Search for products, brands and more" style="width: 100% ; font-size: 20px"></td>
+<td><input type="text" placeholder="Search for products, brands and more" style="width: 550px ; height: 35px">
+    <input type="button" value="Search" style="width: 120px ; height: 35px"/>
+</td>
 <th><font color="white"><%= request.getAttribute("name") %></font></th>
 <th><font color="white">More</font></th>
 <th><img src="cart.PNG"></th>
@@ -175,12 +186,63 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
 </table>
 
 <br>
@@ -197,12 +259,63 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
 </table>
 
 <br>
@@ -219,12 +332,63 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
 </table>
 
 <br>
@@ -241,12 +405,63 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
 </table>
 
 <br>
@@ -263,12 +478,63 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
 </table>
 
 <br>
@@ -285,12 +551,113 @@
 </tr>
 
 <tr>
+    <th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+
+<th>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</th>
+</tr>
+
+<tr>
 	<th>Price: <font color="green">599</font></th>
 	<th>Price: <font color="green">699</font></th>
 	<th>Price: <font color="green">799</font></th>
 	<th>Price: <font color="green">499</font></th>
 	<th>Price: <font color="green">399</font></th>
 </tr>
+
+<tr>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+</tr>
+
+</table>
+
+
+<table width="100%" bgcolor="#2874F0">
+    <tr>
+        <td bgcolor="black" width="25%"><font color="white"><b>Quick links</b></font></td>
+        <td bgcolor="black" width="25%"><font color="white"><b>Follow us</b></font></td>
+        <td bgcolor="black" width="25%"><font color="white"><b>Contact</b></font></td>
+        <td bgcolor="black" width="25%"><font color="white"><b>Search</b></font></td>
+    </tr>
+    
+    <tr>
+    <td>
+    <ui>
+        <li><font color="white">Electronics</font></li>
+        <li><font color="white">TVs & Appliances</font></li>
+        <li><font color="white">Men</font></li>
+        <li><font color="white">Women</font></li>
+    </ui>
+    </td>
+    
+    <td>
+    <ui>
+        <li><font color="white">Facebook</font></li>
+        <li><font color="white">Tweeter</font></li>
+        <li><font color="white">Youtube</font></li>
+        <li><font color="white">Instagram</font></li>
+    </ui>
+    </td>
+    
+    <td>
+    <ui>
+        <li><font color="white">Cybercart</font></li>
+        <li><font color="white">+91 7651972664</font></li>
+        <li><font color="white">Indian</font></li>
+        <li><font color="white">242301</font></li>
+    </ui>
+    </td>
+    
+    <td>
+        <input type="text" placeholder="Search">
+        <input type="button" value="Search">
+    </td>
+    
+    </tr>
+    
+    <tr>
+        <th colspan="4" bgcolor="black"><font color="white">Designed by siddhant agarwal</font></th>
+    </tr>
+    
 </table>
 
 </body>
