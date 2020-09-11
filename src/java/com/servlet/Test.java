@@ -56,7 +56,7 @@ public class Test extends HttpServlet
                 HttpSession session = req.getSession();
                 session.setAttribute("check", true);
                 RequestDispatcher rd = req.getRequestDispatcher("home.jsp");
-                req.setAttribute("name", rs.getString("name"));
+                session.setAttribute("user name", rs.getString("name"));
                 rd.forward(req, resp);
             }
             else

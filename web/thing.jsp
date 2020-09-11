@@ -55,7 +55,7 @@
 <td><input type="text" placeholder="Search for products, brands and more" style="width: 550px ; height: 35px">
     <input type="button" value="Search" style="width: 120px ; height: 35px"/>
 </td>
-<th><font color="white"><%= request.getAttribute("name") %></font></th>
+<th><font color="white"><%= session.getAttribute("user name") %></font></th>
 <th><font color="white">More</font></th>
 <th><img src="cart.PNG"></th>
 </tr>

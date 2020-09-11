@@ -34,6 +34,15 @@
 	{
 		display: block;
 	}
+        
+        .zoom
+        {
+            transition: transform 0.5s;
+        }
+        .zoom:hover
+        {
+            transform: scale(1.2);
+        }
 </style>
 
 </head>
@@ -56,7 +65,7 @@
 <td><input type="text" placeholder="Search for products, brands and more" style="width: 550px ; height: 35px">
     <input type="button" value="Search" style="width: 120px ; height: 35px"/>
 </td>
-<th><font color="white"><%= request.getAttribute("name") %></font></th>
+<th><font color="white"><%= session.getAttribute("user name") %></font></th>
 <th><font color="white">More</font></th>
 <th><img src="cart.PNG"></th>
 </tr>
@@ -178,11 +187,11 @@
 <tr>
 <td colspan="5"><h2>School Bags</h2><hr></td>
 <tr>
-<th><img src="bag1.png" width="75%"></th>
-<th><img src="bag2.png" width="75%"></th>
-<th><img src="bag3.png" width="75%"></th>
-<th><img src="bag4.png" width="75%"></th>
-<th><img src="bag5.png" width="75%"></th>
+<th class="zoom"><img src="bag1.png" width="75%"></th>
+<th class="zoom"><img src="bag2.png" width="75%"></th>
+<th class="zoom"><img src="bag3.png" width="75%"></th>
+<th class="zoom"><img src="bag4.png" width="75%"></th>
+<th class="zoom"><img src="bag5.png" width="75%"></th>
 </tr>
 
 <tr>
@@ -251,11 +260,11 @@
 <tr>
 <td colspan="5"><h2>Earphones</h2><hr></td>
 <tr>
-<th><img src="earphone1.png" width="75%"></th>
-<th><img src="earphone2.png" width="75%"></th>
-<th><img src="earphone3.png" width="75%"></th>
-<th><img src="earphone4.png" width="75%"></th>
-<th><img src="earphone5.png" width="75%"></th>
+<th class="zoom"><img src="earphone1.png" width="75%"></th>
+<th class="zoom"><img src="earphone2.png" width="75%"></th>
+<th class="zoom"><img src="earphone3.png" width="75%"></th>
+<th class="zoom"><img src="earphone4.png" width="75%"></th>
+<th class="zoom"><img src="earphone5.png" width="75%"></th>
 </tr>
 
 <tr>
@@ -324,11 +333,11 @@
 <tr>
 <td colspan="5"><h2>Kitchen Appliances</h2><hr></td>
 <tr>
-<th><img src="kitchen1.png" width="75%"></th>
-<th><img src="kitchen2.png" width="75%"></th>
-<th><img src="kitchen3.png" width="75%"></th>
-<th><img src="kitchen4.png" width="75%"></th>
-<th><img src="kitchen5.png" width="75%"></th>
+<th class="zoom"><img src="kitchen1.png" width="75%"></th>
+<th class="zoom"><img src="kitchen2.png" width="75%"></th>
+<th class="zoom"><img src="kitchen3.png" width="75%"></th>
+<th class="zoom"><img src="kitchen4.png" width="75%"></th>
+<th class="zoom"><img src="kitchen5.png" width="75%"></th>
 </tr>
 
 <tr>
@@ -397,11 +406,11 @@
 <tr>
 <td colspan="5"><h2>Mobile Phones</h2><hr></td>
 <tr>
-<th><img src="mobile1.png" width="75%"></th>
-<th><img src="mobile2.png" width="75%"></th>
-<th><img src="mobile3.png" width="75%"></th>
-<th><img src="mobile4.png" width="75%"></th>
-<th><img src="mobile5.png" width="75%"></th>
+<th class="zoom"><img src="mobile1.png" width="75%"></th>
+<th class="zoom"><img src="mobile2.png" width="75%"></th>
+<th class="zoom"><img src="mobile3.png" width="75%"></th>
+<th class="zoom"><img src="mobile4.png" width="75%"></th>
+<th class="zoom"><img src="mobile5.png" width="75%"></th>
 </tr>
 
 <tr>
@@ -470,11 +479,11 @@
 <tr>
 <td colspan="5"><h2>Pendrives</h2><hr></td>
 <tr>
-<th><img src="pendrive1.png" width="75%"></th>
-<th><img src="pendrive2.png" width="75%"></th>
-<th><img src="pendrive3.png" width="75%"></th>
-<th><img src="pendrive4.png" width="75%"></th>
-<th><img src="pendrive5.png" width="75%"></th>
+<th class="zoom"><img src="pendrive1.png" width="75%"></th>
+<th class="zoom"><img src="pendrive2.png" width="75%"></th>
+<th class="zoom"><img src="pendrive3.png" width="75%"></th>
+<th class="zoom"><img src="pendrive4.png" width="75%"></th>
+<th class="zoom"><img src="pendrive5.png" width="75%"></th>
 </tr>
 
 <tr>
@@ -543,11 +552,11 @@
 <tr>
 <td colspan="5"><h2>Teddy</h2><hr></td>
 <tr>
-<th><img src="teddy1.png" width="75%"></th>
-<th><img src="teddy2.png" width="75%"></th>
-<th><img src="teddy3.png" width="75%"></th>
-<th><img src="teddy4.png" width="75%"></th>
-<th><img src="teddy5.png" width="75%"></th>
+<th class="zoom"><img src="teddy1.png" width="75%"></th>
+<th class="zoom"><img src="teddy2.png" width="75%"></th>
+<th class="zoom"><img src="teddy3.png" width="75%"></th>
+<th class="zoom"><img src="teddy4.png" width="75%"></th>
+<th class="zoom"><img src="teddy5.png" width="75%"></th>
 </tr>
 
 <tr>
