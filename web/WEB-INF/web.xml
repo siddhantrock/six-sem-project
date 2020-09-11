@@ -4,11 +4,14 @@
         <servlet-name>Demo</servlet-name>
         <servlet-class>com.servlet.Demo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Dtest</servlet-name>
+        <servlet-class>com.servlet.Dtest</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Demo</servlet-name>
         <url-pattern>/Demo</url-pattern>
     </servlet-mapping>
-    
     <servlet>
         <servlet-name>Test</servlet-name>
         <servlet-class>com.servlet.Test</servlet-class>
@@ -17,7 +20,10 @@
         <servlet-name>Test</servlet-name>
         <url-pattern>/Test</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>Dtest</servlet-name>
+        <url-pattern>/Dtest</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

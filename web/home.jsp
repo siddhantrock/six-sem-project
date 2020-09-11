@@ -48,7 +48,7 @@
             response.sendRedirect("index.html");
         }
     %>
-
+    <form action="Dtest">
 <table border="0" width="100%" bgcolor="#2874F0">
 
 <tr>
@@ -236,11 +236,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="bag1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="bag2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="bag3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="bag4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="bag5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -309,11 +309,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="earphone1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="earphone2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="earphone3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="earphone4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="earphone5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -382,11 +382,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="kitchen1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="kitchen2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="kitchen3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="kitchen4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="kitchen5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -455,11 +455,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="mobile1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="mobile2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="mobile3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="mobile4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="mobile5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -528,11 +528,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="pendrive1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="pendrive2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="pendrive3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="pendrive4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="pendrive5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -601,11 +601,11 @@
 </tr>
 
 <tr>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
-    <th><input type="button" value="Show details" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="teddy1 599" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="teddy2 699" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="teddy3 799" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="teddy4 499" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
+    <th><input type="submit" value="Show details" name="teddy5 399" style="width: 150px ; height: 30px ; background-color: blue ; color: white"></th>
 </tr>
 
 </table>
@@ -659,6 +659,6 @@
     </tr>
     
 </table>
-
+</form>
 </body>
 </html>
